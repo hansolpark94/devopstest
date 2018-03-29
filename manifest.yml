@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: ${APP_PREFIX}-devOps-handson
+  host: ${APP_PREFIX}-devOps-handson
+  disk_quota: 384M
+  services:
+  - ${APP_PREFIX}-cloudant-handson
+  env:
+    APP_PREFIX: ${APP_PREFIX}
