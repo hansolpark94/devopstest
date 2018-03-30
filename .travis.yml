@@ -25,4 +25,4 @@ deploy:
   space: $BLUEMIX_SPACE
   manifest: manifest.yml
   on:
-    branch: master
+    branch: test
