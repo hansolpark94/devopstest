@@ -11,7 +11,7 @@ install:
 notifications:
   email:
     recipients:
-    - bsjun@kr.ibm.com
+    - hsprk@kr.ibm.com
     on_success: change
     on_failure: always
 deploy:
@@ -23,4 +23,4 @@ deploy:
   space: $BLUEMIX_SPACE
   manifest: manifest.yml
   on:
-    branch: test
+    branch: master
